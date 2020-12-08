@@ -1,0 +1,94 @@
+body {
+	/* background: palevioletred; */
+	background-image: url("./sweater-paper-2.jpg");
+}
+	
+h1, h2 {
+    text-align: center;
+    color: red;
+    /*border-color: white;*/
+    border-style: dotted;
+    border-width: 3px;
+    -webkit-text-stroke: 2px white;
+}
+
+h3, h4 {
+    color: white;
+}
+
+p {
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+}
+
+#tree {
+    display: block;
+    margin: auto;
+    width: 15%;
+}
+
+#mainContainer {
+    display: flex;
+    border: 5px solid black;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px; 
+}
+/*
+#mainLeft {
+    border: 5px solid blue;
+    background-color: red;
+    width: 20%;
+    height: 100%;
+}
+#mainRight {
+    border: 5px solid darkred;
+    background-color: green;
+    width: 80%;
+    height: 100%;
+}
+#clear {
+    clear: both;
+}
+*/
+.menuFrame {
+    border: 5px solid blue;
+    height: 40%;
+    width: 20%";
+}
+.mainFrame {
+    border: 5px solid darkred;
+    height: 100%;
+    width: 80%;
+}
+
+/*
+#menu {
+    float:left;
+    width:20%;
+    height:80%;
+}
+#mainContent {
+    float:left;
+    width:75%;
+    height:80%;
+}
+*/
+
+#sweaters {
+    justify-content: center;
+    text-align: center;
+}
+
+.giffy {
+    display: inline;
+    width: 100px;
+}
+
+#contact {
+    color: white;
+    background-color: darkred;
+    padding: 10px;
+
+}
