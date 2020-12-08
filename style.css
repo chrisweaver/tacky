@@ -1,8 +1,8 @@
 body {
 	background-image: url("images/bg-xmastree.jpg");
 }
-	
-h1, h2 {
+
+h1 {
     animation: headerBlinker 1.5s ease-out infinite;
     text-align: center;
     color: red;
@@ -10,6 +10,11 @@ h1, h2 {
     border-style: dotted;
     border-width: 3px;
     -webkit-text-stroke: 2px white;
+}
+h2 {
+    animation: headerBlinker 2s ease-out infinite;
+    text-align: left;
+    color: white;
 }
 @keyframes headerBlinker {
   0% { opacity: 0.3; }
@@ -36,6 +41,18 @@ p {
     color: white;
     background-color: darkgreen;
     padding: 10px;
+    font-size: 16px;
+}
+
+table, th, td {
+  border: none;
+}
+
+td {
+    width: 50%;
+}
+table {
+  width: 100%;
 }
 
 #banner {
@@ -58,7 +75,7 @@ p {
 #menuContainer {
     position: relative;
     border: 5px solid darkgreen;
-    height: 45%;
+    height: 55%;
     width: 15%;
 }
 .menuFrame {
@@ -118,21 +135,41 @@ p {
     to { top: 100%; }
 }
 
-#sweaters {
-    justify-content: center;
-    text-align: center;
-}
-
-.giffy {
-    display: inline;
-    width: 100px;
-}
-
 #contact {
     color: white;
     background-color: darkred;
     padding: 10px;
 
+}
+
+.tBody1 {
+    background-image: url("images/bg-redsweater1.jpg");
+}
+.tBody2 {
+    background-image: url("images/bg-redsweater2.jpg");
+}
+.tBody3 {
+    background-image: url("images/bg-redsweater3.jpg");
+}
+.tBody4 {
+    background-image: url("images/bg-redsweater4.jpg");
+}
+.tBody5 {
+    background-image: url("images/bg-redsweater5.jpg");
+}
+.tBody6 {
+    background-image: url("images/bg-redsweater6.jpg");
+}
+.tBody7 {
+    background-image: url("images/bg-redsweater7.jpg");
+}
+.tBody8 {
+    background-image: url("images/bg-redsweater8.jpg");
+}
+
+.tTableImage {
+    max-height: 180px;
+    max-width: 500px;
 }
 
 /*
