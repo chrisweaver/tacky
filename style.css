@@ -131,7 +131,7 @@ table {
 }
 @keyframes selectionMover {
     from { top: 0px; }
-    to { top: 100%; }
+    to { top: 300px; }
 }
 
 #contact {
