@@ -47,7 +47,6 @@ p {
 table, th, td {
   border: none;
 }
-
 td {
     width: 50%;
 }
@@ -75,7 +74,7 @@ table {
 #menuContainer {
     position: relative;
     border: 5px solid darkgreen;
-    height: 55%;
+    height: 62%;
     width: 15%;
 }
 .menuFrame {
@@ -109,7 +108,7 @@ table {
 }
 .menuBlinker1 {
     position: relative;
-    animation: menuBlinker 1.7s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+    animation: menuBlinker 0.8s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
 .menuBlinker2 {
     position: relative;
@@ -117,13 +116,13 @@ table {
 }
 .menuBlinker3 {
     position: relative;
-    animation: menuBlinker 1s ease-in-out infinite alternate;  
+    animation: menuBlinker 0.5s cubic-bezier(0.7, 0, 1, 1) infinite alternate;  
 }
 @keyframes menuBlinker {
-    0% { left: 0px; background: lightgreen; }
-    25% { left: 1px; background: green; }
-    50% { left: 2px; background: darkred; }
-    100% { left: 4px; background: red; }
+    0% { left: 0px; top: 0px; background: lightgreen; }
+    25% { left: 1px; top: 1px; background: green; }
+    50% { left: 2px; top: 0px; background: darkred; }
+    100% { left: 4px; top: 2px; background: red; }
 }
 
 .selectionMover1 {
@@ -171,35 +170,3 @@ table {
     max-height: 180px;
     max-width: 500px;
 }
-
-/*
-#menu {
-    float:left;
-    width:20%;
-    height:80%;
-}
-#mainContent {
-    float:left;
-    width:75%;
-    height:80%;
-}
-*/
-
-
-/*
-#mainLeft {
-    border: 5px solid blue;
-    background-color: red;
-    width: 20%;
-    height: 100%;
-}
-#mainRight {
-    border: 5px solid darkred;
-    background-color: green;
-    width: 80%;
-    height: 100%;
-}
-#clear {
-    clear: both;
-}
-*/
